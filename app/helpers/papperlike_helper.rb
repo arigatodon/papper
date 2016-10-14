@@ -1,0 +1,2 @@
+module PapperlikeHelper
+end

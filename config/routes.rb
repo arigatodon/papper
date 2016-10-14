@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
+  get 'papperlike/index'
+
+  devise_for :users
+  devise_for :models
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+   root 'papperlike#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
